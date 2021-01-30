@@ -1,22 +1,22 @@
 version: '3.3'
 services:
   db:
-    image: mysql:5.7
+    image: postgres:latest
     restart: always
     environment:
-      MYSQL_DATABASE: 'kotlin_demo_app'
+      POSTGRES_DATABASE: 'postgres'
       # So you don't have to use root, but you can if you like
-      MYSQL_USER: 'user'
+      POSTGRES_USER: 'postgres'
       # You can use whatever password you like
-      MYSQL_PASSWORD: 'password'
+      POSTGRES_PASSWORD: 'password'
       # Password for root access
-      MYSQL_ROOT_PASSWORD: 'password'
+      POSTGRES_ROOT_PASSWORD: 'password'
     ports:
-      # <Port exposed> : < MySQL Port running inside container>
-      - '3306:3306'
+      # <Port exposed> : < POSTGRES Port running inside container>
+      - '5432:5432'
     expose:
-      # Opens port 3306 on the container
-      - '3306'
+      # Opens port 5432 on the container
+      - '5432'
 
       
 

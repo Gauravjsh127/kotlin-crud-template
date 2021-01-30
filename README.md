@@ -3,17 +3,15 @@
 Build a Restful CRUD API using Kotlin, Spring Boot, JPA and Hibernate.
 Reference from tutorial : https://www.callicoder.com/kotlin-spring-boot-mysql-jpa-hibernate-rest-api-tutorial
 
-Database : Mysql
+Database : Postgres
 
 ## Requirements
 
-1. Java - 1.8.x
+1. Java - 11.x +
 
-2. Maven - 3.x.x
+2. Maven - 3.x.x +
 
-3. Mysql - 5.x.x
-
-4. Docker and docker-compose
+3. Docker and docker-compose
 
 ## Steps to Setup
 
@@ -23,7 +21,7 @@ Database : Mysql
 git clone https://github.com/Gauravjsh127/kotlin-crud-template.git
 ```
 
-**2. Create Mysql database**
+**2. Create database: docker way**
 ```
 docker-compose up
 
@@ -33,7 +31,7 @@ docker-compose up
 
 + open `src/main/resources/application.properties`
 
-+ change `spring.datasource.username` and `spring.datasource.password` as per your mysql installation
++ change `spring.datasource.username` and `spring.datasource.password` as per your database installation(docker compose file)
 
 **4. Running the App**
 
