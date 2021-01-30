@@ -21,7 +21,7 @@ Database : Postgres
 git clone https://github.com/Gauravjsh127/kotlin-crud-template.git
 ```
 
-**2. Create Mysql database**
+**2. Create database: docker way**
 ```
 docker-compose up
 
