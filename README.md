@@ -31,7 +31,7 @@ docker-compose up
 
 + open `src/main/resources/application.properties`
 
-+ change `spring.datasource.username` and `spring.datasource.password` as per your mysql installation
++ change `spring.datasource.username` and `spring.datasource.password` as per your database installation(docker compose file)
 
 **4. Running the App**
 
