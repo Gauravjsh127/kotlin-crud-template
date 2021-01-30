@@ -3,17 +3,15 @@
 Build a Restful CRUD API using Kotlin, Spring Boot, JPA and Hibernate.
 Reference from tutorial : https://www.callicoder.com/kotlin-spring-boot-mysql-jpa-hibernate-rest-api-tutorial
 
-Database : Mysql
+Database : Postgres
 
 ## Requirements
 
-1. Java - 1.8.x
+1. Java - 11.x +
 
-2. Maven - 3.x.x
+2. Maven - 3.x.x +
 
-3. Mysql - 5.x.x
-
-4. Docker and docker-compose
+3. Docker and docker-compose
 
 ## Steps to Setup
 
