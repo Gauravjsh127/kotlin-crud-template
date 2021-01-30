@@ -8,9 +8,6 @@ import org.springframework.web.bind.annotation.*
 import java.util.*
 import javax.validation.Valid
 
-/**
- * Created by rajeevkumarsingh on 04/10/17.
- */
 
 @RestController
 @RequestMapping("/api")
