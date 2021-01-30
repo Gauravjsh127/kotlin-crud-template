@@ -1,7 +1,9 @@
-# Kotlin, Spring Boot, MySQL, JPA, Hibernate Rest API
+# Rest APIs
 
-Build a Restful CRUD API using Kotlin, Spring Boot, Mysql, JPA and Hibernate.
+Build a Restful CRUD API using Kotlin, Spring Boot, JPA and Hibernate.
 Reference from tutorial : https://www.callicoder.com/kotlin-spring-boot-mysql-jpa-hibernate-rest-api-tutorial
+
+Database : Mysql
 
 ## Requirements
 
