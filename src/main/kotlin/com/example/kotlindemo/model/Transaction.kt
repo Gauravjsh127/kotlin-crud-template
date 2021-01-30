@@ -12,8 +12,9 @@ data class Transaction (
     val id: Long = 0,
 
     @get: NotBlank
-    val title: String = "",
+    val senderIBAN: String = "",
 
     @get: NotBlank
-    val content: String = ""
+    val recieverIBAN: String = ""
+
 )

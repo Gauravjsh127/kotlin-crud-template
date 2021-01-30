@@ -36,7 +36,7 @@ class TransactionController(private val transactionRepository: TransactionReposi
 
         return transactionRepository.findById(transactionId).map { existingTransaction ->
             val updatedTransaction: Transaction = existingTransaction
-                    .copy(title = newTransaction.title, content = newTransaction.content)
+                    .copy(senderIBAN = newTransaction.senderIBAN, recieverIBAN = newTransaction.recieverIBAN)
 
             ResponseEntity.ok().body(transactionRepository.save(updatedTransaction))
         }.orElse(ResponseEntity.notFound().build())
